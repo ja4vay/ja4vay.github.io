@@ -1,0 +1,1031 @@
+/* reset browser styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+* { 
+  box-sizing: border-box;
+  }
+
+/* RESET */
+
+body {
+	overflow-x: hidden;
+	background-color: #fffefd;
+}
+
+
+/*Start NavBar*/
+nav {
+  height: 10vh;
+  background: #fffefd; 
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 55%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links li a {
+  color: #0B9CB3;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Homemade Apple', cursive;
+  letter-spacing: 1px;
+}
+
+.logo {
+	display:block;
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	top: -7%;
+	}
+h2 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	letter-spacing: 1.3px;
+	margin-left: 5%;
+	position: absolute;
+	top: 30%;
+	color: black;
+	
+}
+
+.nav-links a:hover {
+  text-shadow: 2px 2px 15px #74BFF4;
+}
+
+/* End Header: NavBar and Logo */
+
+.mainphoto {
+	display: block;
+	width: 100vw;
+	height: auto;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 8%;
+	
+}
+
+h3 {
+	font-weight: 380;
+	font-size: 48px;
+	font-family: 'Homemade Apple', cursive;
+	margin-bottom: 10%;
+	text-align: center;
+	
+	
+}
+
+h4 {
+	font-size: 38px;
+	font-weight: 380;
+	font-family: 'Homemade Apple', cursive;
+	margin-bottom: 8%;
+	text-align: center;
+	
+}
+
+.Positano {
+	margin-top: 10%;
+	margin-bottom: 15%;
+	position:relative;
+}
+
+.LaSirenuseText {
+	background-color: rgba(156,213,72,0.28);
+	border: 5px solid #4ACCCC;
+	width:35%;
+	padding: 60px 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-left: 15%;
+	line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+.card {
+	position: absolute;
+	right: 16%;
+	top: -1%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+  	width:35%;
+	border: 5px solid #4ACCCC;
+	-ms-transform: rotate(10deg); /* IE 9 */
+  	transform: rotate(10deg);
+	}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.balcony {
+	display:block;
+	width:100%;
+}
+
+.card:hover {
+ 	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  	padding: 10px 30px;
+	background-color: #9CD548;
+}
+
+ul li {
+		padding: 1%;
+	}
+
+.LaSirenChecklist {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 35%;
+	line-height: 1.5;
+    letter-spacing: 1px;
+	}
+
+.LaSirenChecklist h5 {
+	text-decoration:underline;
+	margin-bottom: 6%;
+	font-size: 30px;
+}
+
+.LaSirenChecklist ul {
+	list-style: check inside url("imgs/tealCheckmark.png");
+}
+.LaSirenChecklist ul li {
+	margin-bottom: 5%;
+}
+
+.highlight {
+	background-color: #D5ECB1;
+	padding:0.1em 0.2em;
+	
+}
+.OasiChecklist {
+	margin-left:auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 35%;
+	line-height: 1.5;
+    letter-spacing: 1px;
+	margin-bottom: 15%;
+}
+
+.OasiChecklist h5 {
+	text-decoration:underline;
+	margin-bottom: 6%;
+	font-size: 30px;
+}
+
+.OasiChecklist ul {
+	list-style: check inside url("imgs/tanCheckmark.png");
+}
+.OasiChecklist ul li {
+	margin-bottom: 5%;
+}
+
+.Sorrento {
+	line-height: 1.5;
+    letter-spacing: 1px;
+	margin-bottom: 15%;
+	display: relative;
+
+}
+.Oasi {
+	display:flex;
+	align-items: start;
+	margin-bottom: 15%;
+}
+
+
+.card2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.bedbreaky {
+	display:block;
+	width:100%;
+	}
+
+.card2:hover {
+ 	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.OasiContainer {
+	max-height: 100px;
+	width: 50%;
+	margin-left: -5%;
+	margin-top: 3%;
+	z-index: 200;
+}
+
+hr {
+	width: 104%;
+}
+.OasiContainer h5 {
+	margin-right: 30%;
+}
+.OasiMadreText {
+    width: 50%;
+	z-index: -100;
+    background-color: RGBA(227,209,193,.5);
+    /* border: 5px solid #973902; */
+    padding: 65px 55px 55px 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    margin-left: -48%;
+    margin-top: 10%;
+  }
+
+.highlight1 {
+	background-color: #EBDFD4;
+	padding:0.1em 0.2em;
+}
+
+.Sorrento2 {
+	line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.Tonnarella {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-bottom: 15%;
+}
+.card3 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-left: 14%;
+	width: 30%;
+}
+
+.privatebeach {
+	display:block;
+	width:100%;
+}
+.card3:hover {
+ 	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+figcaption {
+  	padding: 10px 30px;
+	background-color: #96C4FF;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+	border: 5px solid #96C4FF;
+}
+
+.TonnarellaText {
+    width: 60%;
+    background-color: rgba(150, 196, 255, .3);
+    /* border: 5px solid #973902; */
+    padding: 45px 45px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+}
+
+.TonnarellaChecklist {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 35%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 20%;
+    margin-top: 15%;
+}
+
+hr {
+    width: 105%;
+}
+
+.TonnarellaChecklist h5 {
+	text-decoration:underline;
+	margin-bottom: 6%;
+	font-size: 30px;
+}
+
+.TonnarellaChecklist ul {
+	list-style: check inside url(imgs/checkmark.png);
+}
+.TonnarellaChecklist li {
+	margin-bottom: 5%;
+}
+
+
+
+.highlight2 {
+ background-color: #D4E7FF;
+ padding:0.1em 0.2em;
+}
+
+footer {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	border-top: double #DAD4EF;
+	background-color: rgba(74,204,204,.5);
+	background: linear-gradient(to bottom, rgba(255,233,162,.2) 40%,
+	rgba(74,204,204,.3));
+	font-family: 'Raleway', sans-serif;
+	list-style: none;
+	width: 100%;
+	height: 300px;
+	margin-top: 15%;
+	padding-top:5%;
+	}
+
+
+
+footer li a {
+color: #0B9CB3;
+text-decoration: none;
+font-size: 20px;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+footer a:hover {
+  text-shadow: 2px 2px 15px #056C7C;
+}
+
+.footerlist {
+	list-style: none;
+	margin-left:30%
+}
+
+.fab {
+	color: #056C7C;
+}
+
+.socialList{
+	margin-right:10%;
+	list-style: none;
+}
+.footerlogo {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	bottom: 0px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 5px;
+  }
+	
+  nav {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+	z-index: 1005;
+   }
+
+  .nav-links {
+    position: fixed;
+    background: #FEDF7C;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -30%);
+    -webkit-clip-path: circle(100px at 90% -30%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+	overflow-y: hidden;
+  }
+	
+  .nav-links.open {
+	z-index: 100;
+    clip-path: circle(1400px at 90% -30%);
+    -webkit-clip-path: circle(1400px at 90% -30%);
+    pointer-events: all;
+  }
+	
+  .landing {
+    flex-direction: column;
+	
+  }
+	
+  .nav-links li {
+    opacity: 0;
+  }
+	
+  .nav-links li a {
+    font-size: 25px;
+  }
+	
+  .nav-links li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+	
+  .nav-links li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+	
+  .nav-links li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+	
+  li.fade {
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width:1024px) { 
+	.logo {
+		width: 150px;
+		height:150px;
+	}
+	
+	h2 {
+		margin-left: 7%;
+		margin-top: 2%;
+				
+	}
+	
+	h4 {
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+	
+	ul li {
+		padding: 1%;
+	}
+	
+	.LaSirenuseText {
+		width: 45%;
+	}
+	.LaSirenChecklist {
+		width: 45%;
+	}
+	.card {
+		right: 10%;
+	}
+	
+	.card2 {
+		margin-left: 3%;
+		margin-top: 10%;
+		width: 40%;
+	}
+	.OasiContainer {
+		margin-top: 11%;
+		margin-left: 0%;
+	}
+	.OasiMadreText {
+		margin-top: 20%;
+		margin-right:3%;
+		width: 60%;
+		padding:55px 55px 55px 80px;
+	}
+	
+	.OasiChecklist {
+		width: 45%;
+		margin-bottom: 20%;
+	}
+	
+	.card3 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	
+	.TonnarellaText {
+		margin-left:auto;
+		margin-right:auto;
+		width: 70%%;
+	}
+	.TonnarellaChecklist {
+		width: 50%;
+		margin-bottom: 20%;
+	}
+	
+		
+}
+@media (min-width: 541px) and (max-width:768px) { 
+	nav {
+		height: 10vh
+	}
+	
+	.logo {
+		width: 110px;
+		height:110px;
+	}
+	
+	h2 {
+		margin-left: 11%;
+		margin-top: 2%;
+	}
+	.card {
+		position: absolute;
+		right: 2%;
+		width: 37%;
+		margin-right:3%;
+	}
+	
+	.LaSirenuseText {
+		width: 65%;
+		margin-left: 2.5%;
+	}
+	
+	.LaSirenChecklist {
+		width: 60%;
+		margin-top: 20%;
+		margin-bottom: 25%;
+	}
+	
+	.card2 {
+		margin-left: 3%;
+		margin-top: 22%;
+		width: 50%;
+	}
+	
+	.OasiContainer {
+		margin-top: 20%;
+		margin-left: 2%;
+		width: 55%;
+	}
+	.OasiContainer h5 {
+		margin-left: 6%;
+		margin-right: 0;
+	}
+
+	.OasiMadreText {
+		margin-top: 35%;
+		margin-right: 3%;
+		width: 85%;
+	}
+	
+	hr {
+		width: 150%;
+		margin-left: -5%;
+	}
+	
+	.OasiChecklist {
+		width: 60%;
+		margin-bottom: 20%;
+	}
+	
+card3 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	
+	.TonnarellaText {
+		margin-left:auto;
+		margin-right:auto;
+		width: 70%%;
+	}
+	.TonnarellaChecklist {
+		width: 60%;
+	}
+	
+}
+
+@media (min-width: 481px) and (max-width:540px) { 
+	nav {
+		height: 10vh
+	}
+	
+	.logo {
+		width: 90px;
+		height:80px;
+	}
+	
+	h2 {
+		margin-left: 13%;
+		margin-top: 2%;
+		font-size: 20px;
+	}
+	
+	h3 {
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+	
+	.Positano {
+		display: flex;
+		position: static;
+		flex-wrap: wrap-reverse;
+	}
+	.LaSirenuseText {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10%;
+		padding: 50px;
+		border: none;
+	}
+	
+	.card {
+		transform: rotate(0deg);
+		position: static;
+		margin-top: 15%;
+		margin-left:auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	.LaSirenChecklist {
+		width: 80%;
+		margin-top: 30%;
+		margin-bottom: 35%;
+	}
+	/*
+	.OasiContainer {
+		width: 60%;
+	}
+	
+	.OasiContainer h5 {
+		margin-right: 0;
+		margin-top:15%;
+	}
+	.OasiMadreText {
+		width: 70%;
+		z-index: -100;
+		background-color: RGBA(227,209,193,.5);
+		/* border: 5px solid #973902; 
+		padding: 60px 50px 50px 60px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		transition: 0.3s;
+		margin-top: 25%;
+		margin-right: 3%;
+	}/*
+
+
+	.card2 {
+		margin-left: 3%;
+		width: 60%;
+		margin-top: 20%;
+	}
+	
+	.OasiChecklist {
+		margin-top: 30%;
+		margin-bottom: 30%;
+		width: 80%;
+		
+	}*/
+	.Oasi {
+		flex-direction: column;
+		margin-top: 25%;
+	}
+
+	
+	.OasiContainer {
+		width: 90%;
+		margin-bottom: 5%;
+	}
+	
+	.OasiContainer h5 {
+		margin-right: 0;
+		margin-top:15%;
+	}
+	
+	.OasiMadreText {
+		width: 95%;
+		padding: 40px 30px 30px 40px;
+		font-size: 18px;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		transition: 0.3s;
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.OasiChecklist {
+		width: 80%;
+		margin-top: 30%;
+		margin-bottom: 30%;
+	}
+
+
+	.card2 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		margin-top: 10%;
+	}
+	
+	.TonnarellaText {
+		width: 90%;
+	}
+	.card3 {
+		width: 90%;
+	}
+	.TonnarellaChecklist {
+		width: 80%;
+		margin-top: 30%;
+		margin-bottom: 25%;
+	}
+
+
+}
+
+@media (min-width: 281px) and (max-width:481px) { 
+	.logo {
+		display: none;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	
+	h3 {
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+	
+.Positano {
+		display: flex;
+		position: static;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.LaSirenuseText {
+		margin-top: 10%;
+		border: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: ;
+		padding: 50px 35px;
+		font-size: 18px;
+	
+		
+	}
+	
+	.card {
+		transform: rotate(0deg);
+		position: static;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25%;
+		}
+	.container {
+		border-bottom: none;
+	}
+	
+	.LaSirenChecklist {
+		width: 90%;
+		margin-top: 35%;
+		margin-bottom: 35%;
+	}
+	
+	.Oasi {
+		flex-direction: column;
+		margin-top: 30%;
+	}
+
+	
+	.OasiContainer {
+		width: 90%;
+		margin-bottom: 5%;
+	}
+	
+	.OasiContainer h5 {
+		margin-right: 0;
+		margin-top:15%;
+	}
+	
+	.OasiMadreText {
+		width: 95%;
+		padding: 40px 30px 30px 40px;
+		font-size: 18px;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		transition: 0.3s;
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+	.card2 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		margin-top: 10%;
+	}
+	
+	.OasiChecklist {
+		margin-top: 35%;
+		margin-bottom: 35%;
+		width: 90%;
+		
+	}
+
+	.card3 {
+		width: 90%;
+		
+	}
+	
+	.TonnarellaText {
+		width: 90%;
+		font-size: 18px;
+	}
+	
+	.TonnarellaChecklist {
+		width: 90%;
+		margin-top: 35%;
+		margin-bottom: 35%;
+	}
+	
+}
+
+@media (max-width:280px) {
+	.logo {
+		display: none;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	h3 {
+		font-size: 30px;
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+	
+	h4 {
+		font-size: 26px;
+	}
+.Positano {
+		display: flex;
+		position: static;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.LaSirenuseText {
+		margin-top: 10%;
+		border: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: ;
+		padding: 50px 35px;
+		font-size: 18px;
+	
+		
+	}
+	
+	.card {
+		transform: rotate(0deg);
+		position: static;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25%;
+		}
+	.container {
+		border-bottom: none;
+	}
+	
+	.LaSirenChecklist {
+		width: 90%;
+		margin-top: 35%;
+		margin-bottom: 35%;
+	}
+	
+	.Oasi {
+		flex-direction: column;
+		margin-top: 30%;
+	}
+
+	
+	.OasiContainer {
+		width: 90%;
+		margin-bottom: 5%;
+	}
+	
+	.OasiContainer h5 {
+		margin-right: 0;
+		margin-top:15%;
+	}
+	
+	.OasiMadreText {
+		width: 95%;
+		padding: 40px 30px 30px 40px;
+		font-size: 18px;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		transition: 0.3s;
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+	.card2 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		margin-top: 10%;
+	}
+	
+	.OasiChecklist {
+		margin-top: 35%;
+		margin-bottom: 35%;
+		width: 90%;
+		
+	}
+
+	.card3 {
+		width: 90%;
+		
+	}
+	
+	.TonnarellaText {
+		width: 90%;
+		font-size: 18px;
+	}
+	
+	.TonnarellaChecklist {
+		width: 90%;
+		margin-top: 35%;
+		margin-bottom: 35%;
+	}
+	
+	
+	
+	
+	
+	
+	
+}
