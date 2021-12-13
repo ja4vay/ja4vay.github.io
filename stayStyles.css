@@ -62,7 +62,7 @@ nav {
   color: #0B9CB3;
   text-decoration: none;
   font-size: 24px;
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -213,7 +213,7 @@ ul li {
 	font-size: 20px;
 	width: 35%;
 	line-height: 1.5;
-    letter-spacing: 1px;
+        letter-spacing: 1px;
 	margin-bottom: 15%;
 }
 
@@ -232,7 +232,7 @@ ul li {
 
 .Sorrento {
 	line-height: 1.5;
-    letter-spacing: 1px;
+        letter-spacing: 1px;
 	margin-bottom: 15%;
 	display: relative;
 
@@ -254,7 +254,7 @@ ul li {
 .bedbreaky {
 	display:block;
 	width:100%;
-	}
+}
 
 .card2:hover {
  	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
