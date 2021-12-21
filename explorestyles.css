@@ -1549,23 +1549,23 @@ footer a:hover {
 	}
 	
 	.AmalfiPicandTitle {
-    	display: flex;
-    	flex-wrap: wrap;
+    		display: flex;
+    		flex-wrap: wrap;
 		flex-direction: row;
 	}
 	
 	.candles {
 		max-width: 300px;
    		height: auto;
-    	margin-left: 0;
-		margin-top: 0;
+    		margin-right: auto;
+    		margin-left: auto;
 		margin-bottom: 10%;
 	}
 	
 	.AmalfiHeadline {
    		 margin-bottom: 30%;
-    	 margin-top: 25%;
-    	 font-size: 80px;
+    		 margin-top: 25%;
+    	 	font-size: 80px;
 		 margin-left: 4%;
 	}
 	
@@ -1580,7 +1580,7 @@ footer a:hover {
 	}
 
 	.relative {
-    	height: 300px;
+    		height: 300px;
 	}
 	
 	.umbrellas {
@@ -1590,7 +1590,7 @@ footer a:hover {
 	
 	.positanoText > p {
    		width: 80%;
-    	font-size: 20px;
+    		font-size: 20px;
 		margin-bottom: 25%;
 	}
 	
@@ -1607,7 +1607,7 @@ footer a:hover {
 		flex-wrap: wrap;
 		flex-direction: row;
 		margin-left: auto;
-    	margin-right: auto;
+    		margin-right: auto;
 		width: 100%;
 	}
 	
@@ -1615,7 +1615,7 @@ footer a:hover {
 		width: 80%;
 		font-size: 20px;
 		margin-left: auto;
-       	margin-right: auto;
+       		margin-right: auto;
 		margin-top: 30%;
   		margin-bottom: 30%;
 		line-height: 1.5;
@@ -1650,7 +1650,7 @@ footer a:hover {
 	}
 	.GrottoHeadline { 
 		right: 50%;
-    	font-size: 24px;
+    		font-size: 24px;
 	}
 
 	.PositanoGrottos {
