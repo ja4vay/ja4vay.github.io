@@ -43,7 +43,7 @@ html, body {
 }
 
 body {
-	background-image: url("imgs/TransparentTips.png");
+	background-image: url("TransparentTips.png");
 	background-position: center;
   	background-repeat: no-repeat;
  	background-size: cover;
